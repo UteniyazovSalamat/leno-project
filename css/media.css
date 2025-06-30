@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar__mobile-menu {
+        display: block;
+    }
+}
