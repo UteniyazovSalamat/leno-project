@@ -132,6 +132,10 @@
 
     .pricing__card {
         margin-bottom: 4rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -178,11 +182,27 @@
     .pricing {
         padding-bottom: 3rem;
     }
+
+    .pricing__card {
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    /* Details Features */
+    .details-features__list-item {
+        flex-direction: column;
+    }
+
+    .details-features__list-title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
     /* Details */
-
     .details {
         padding-bottom: 4rem;
     }
@@ -208,5 +228,10 @@
 
     .screenshots__title {
         font-size: 2rem;
+    }
+
+    /* Details Features */
+    .details-features {
+        padding-bottom: 2rem;
     }
 }
