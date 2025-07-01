@@ -44,6 +44,10 @@
         grid-template-columns: 1fr;
     }
 
+    .features__grid-column {
+        gap: 4rem;
+    }
+
     .features__grid-column-left,
     .features__grid-column-right {
         order: 2;
@@ -88,5 +92,25 @@
 
     .testimonials__card:nth-child(2) {
         display: none;
+    }
+
+    /* Features */
+    .features__grid-column {
+        gap: 3rem;
+    }
+
+    .features__grid-column-center {
+        margin-bottom: 2rem;
+    }
+
+    /* Video Modal */
+    .modal__content {
+        margin: 40% auto;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .modal__content iframe {
+        width: 100%;
     }
 }
