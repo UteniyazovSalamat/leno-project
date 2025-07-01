@@ -156,4 +156,13 @@
     .details__icons-title {
         font-size: 1.2rem;
     }
+
+    /* Screenshots */
+    .screenshots {
+        padding-bottom: 3rem;
+    }
+
+    .screenshots__title {
+        font-size: 2rem;
+    }
 }
