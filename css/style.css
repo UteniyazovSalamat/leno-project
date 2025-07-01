@@ -520,3 +520,48 @@ img {
         margin: 0 auto;
     }
 }
+
+/* Download */
+.download {
+    background: url('../images/download-background.jpg') center center/cover no-repeat;
+    padding: 11.5rem 2rem 8rem;
+}
+
+.download__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.download__content {
+    max-width: 500px;
+}
+
+.download__description {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.download__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.download__button {
+    padding: 1rem 2rem;
+
+    i {
+        margin-right: 1rem;
+    }
+}
+
+.download__image img {
+    width: 100%;
+    max-width: 500px;
+}

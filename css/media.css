@@ -94,6 +94,25 @@
     .deatails__grid-description {
         text-align: center;
     }
+
+    /* Download */
+    .download {
+        padding-top: 10rem;
+        text-align: center;
+    }
+
+    .download__container {
+        flex-direction: column-reverse;
+    }
+
+    .download__buttons {
+        flex-direction: column;
+    }
+
+    .download__button {
+        width: 100%;
+        padding: 0.7rem;
+    }
 }
 
 @media (max-width: 768px) {
