@@ -24,6 +24,18 @@
     .hero__image img {
         max-width: 350px;
     }
+
+    .testimonials__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonials__card:nth-child(3) {
+        display: none;
+    }
+
+    .testimonials__card {
+        padding: 0 1.5rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -33,5 +45,13 @@
 
     .navbar__mobile-menu {
         display: block;
+    }
+
+    .testimonials__container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials__card:nth-child(2) {
+        display: none;
     }
 }
