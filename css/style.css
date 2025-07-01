@@ -434,3 +434,57 @@ img {
     font-size: 40px;
     cursor: pointer;
 }
+
+/* Details */
+.details {
+    padding: 9rem 2rem;
+}
+
+.details__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.details__grid-content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.details__grid-heading {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.deatails__grid-description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.details__icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    gap: 2rem;
+    text-align: center;
+
+    i {
+        margin-bottom: 1rem;
+        color: var(--primary-color);
+    }
+}
+
+.details__icons-amount {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.details__icons-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
