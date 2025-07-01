@@ -124,6 +124,15 @@
         gap: 3rem;
         max-width: 600px;
     }
+
+    /* Pricing */
+    .pricing__cards {
+        flex-direction: column;
+    }
+
+    .pricing__card {
+        margin-bottom: 4rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -163,6 +172,11 @@
 
     .modal__content iframe {
         width: 100%;
+    }
+
+    /* Pricing */
+    .pricing {
+        padding-bottom: 3rem;
     }
 }
 

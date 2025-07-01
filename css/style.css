@@ -625,3 +625,72 @@ img {
         color: #0077b5;
     }
 }
+
+/* Inner Header */
+.inner-header {
+    background: #000 url('../images/header-background.jpg') center center/cover no-repeat;
+    padding: 10rem 2rem 6rem;
+}
+
+.inner-header__title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Pricing */
+.pricing {
+    background-color: var(--tertiary-color);
+    padding: 4rem 2rem 6rem;
+}
+
+.pricing__title {
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.pricing__card-box {
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pricing__card-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.pricing__card-price {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.pricing__card-list {
+    text-align: left;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.pricing__card-item i {
+    margin-right: 0.5rem;
+    color: var(--primary-color);
+}
+
+/* Pricing Notes */
+.pricing-notes {
+    padding: 3rem 2rem;
+    color: #9f9caf;
+    text-align: center;
+}
